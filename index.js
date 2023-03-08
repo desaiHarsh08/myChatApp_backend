@@ -6,7 +6,7 @@ dotenv.config({path: './config.env'})
 
 const io = require('socket.io')((process.env.PORT || 8000), {
     cors: {
-        origin: [process.env.CLIENT_URL]
+        origin: ['https://main--whimsical-bombolone-e2d0f5.netlify.app/']
         // origin: ['http://127.0.0.1:5500/client/dist/index.html']
     }
 })
